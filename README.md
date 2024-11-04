@@ -41,34 +41,17 @@
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/364b741e-d5d8-4f6d-9b02-e24ea363f0eb">
 -------------------
 
-## 🖥️ Server
-- 교량을 촬영한 CCTV 가 영상을 서버로 송출
-- 해당 영상을 CAIROSS 모델이 처리
-- 사용자에게는 영상을 지속적으로 보여주며 위험 인물이 있다고 판단될 경우 해당 인물과 그 주위를 확대
-
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/9eb0d75d-cea5-4237-8fc2-aaa3e6118bde">
+## 🖥️ Front
+- 챗봇이라는 컨셉에 걸맞게 사용하기 편한 인터페이스를 구성
+- 회의록 기반 질문 시 답변의 근간이 되었던 pdf 링크를 함께 제공하여 신뢰성 확보
 
 -------------------
 
-## 🧑‍💻 Algorithm
-- CCTV 에서는 사람 객체와 난간 사이의 거리를 정확히 측정할 수 없었습니다.(~~우리의 기술로는...~~)
-- 그래서 직접 특정 알고리즘을 만들어서 사람과 난간사이의 거리를 측정할 필요가 있었습니다.
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/078ffd21-1ae9-48cf-ac5e-ec664c7cb9b5">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/ea5ba7fb-0e48-48a1-baf4-be54a2bb6de9">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/a483fc44-03a8-4bcb-914e-974890ca5495">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/c5c5ceda-8c6e-42bb-ac2a-4b33aed82bd4">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/c3403a2e-c603-4949-88b1-be2d98f956da">
-
-----------------------------------------------
-
 ##### 📦 최종 서비스 형태
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/9308bdbf-79b0-4491-8660-802607cdc5ab">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/01a1ed7c-4f34-4105-bb07-191047724acc">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/09259874-8006-4ed9-9af3-5b30002765fd">
 
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/3a003b48-285d-4296-9482-8d1843ee776c">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/aa648ae6-a948-42dd-b417-fc8c567cbea3">
-
-------------------------------------------------
-
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/26ce562f-b8f2-4851-9f32-c54a1c77d0a5">
 
 ---------------------------------------------------
 
