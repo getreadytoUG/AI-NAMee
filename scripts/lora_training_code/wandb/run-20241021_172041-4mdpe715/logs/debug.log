@@ -1,0 +1,32 @@
+2024-10-21 17:20:41,166 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-10-21 17:20:41,166 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Configure stats pid to 362689
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Loading settings from /home/user/.config/wandb/settings
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Loading settings from /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/settings
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'finetuning.py', 'program_abspath': '/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/finetuning.py', 'program': '/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/finetuning.py'}
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_init.py:_log_setup():529] Logging user logs to /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241021_172041-4mdpe715/logs/debug.log
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_init.py:_log_setup():530] Logging internal logs to /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241021_172041-4mdpe715/logs/debug-internal.log
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_init.py:init():569] calling init triggers
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-10-21 17:20:41,167 INFO    MainThread:362689 [wandb_init.py:init():619] starting backend
+2024-10-21 17:20:41,168 INFO    MainThread:362689 [wandb_init.py:init():623] setting up manager
+2024-10-21 17:20:41,170 INFO    MainThread:362689 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-21 17:20:41,171 INFO    MainThread:362689 [wandb_init.py:init():631] backend started and connected
+2024-10-21 17:20:41,174 INFO    MainThread:362689 [wandb_init.py:init():720] updated telemetry
+2024-10-21 17:20:41,175 INFO    MainThread:362689 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-10-21 17:20:41,689 INFO    MainThread:362689 [wandb_run.py:_on_init():2402] communicating current version
+2024-10-21 17:20:41,748 INFO    MainThread:362689 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.18.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-10-21 17:20:41,748 INFO    MainThread:362689 [wandb_init.py:init():804] starting run threads in backend
+2024-10-21 17:20:57,202 INFO    MainThread:362689 [wandb_run.py:_console_start():2380] atexit reg
+2024-10-21 17:20:57,202 INFO    MainThread:362689 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-10-21 17:20:57,202 INFO    MainThread:362689 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-10-21 17:20:57,202 INFO    MainThread:362689 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-10-21 17:20:57,203 INFO    MainThread:362689 [wandb_init.py:init():847] run started, returning control to user process
+2024-10-21 17:20:57,204 INFO    MainThread:362689 [wandb_run.py:_config_callback():1382] config_cb None None {'model_name': '/media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct', 'tokenizer_name': None, 'enable_fsdp': False, 'low_cpu_fsdp': False, 'run_validation': True, 'batch_size_training': 2, 'batching_strategy': 'padding', 'context_length': 2048, 'gradient_accumulation_steps': 128, 'gradient_clipping': True, 'gradient_clipping_threshold': 1.0, 'num_epochs': 30, 'max_train_step': 0, 'max_eval_step': 0, 'num_workers_dataloader': 10, 'lr': 0.0002, 'weight_decay': 0.0, 'gamma': 0.85, 'seed': 42, 'use_fp16': False, 'mixed_precision': True, 'val_batch_size': 2, 'peft_method': 'lora', 'use_peft': True, 'from_peft_checkpoint': '', 'output_dir': '/home/user/eomjimin/AI_Namee/Fine-tuning/lora_output', 'freeze_layers': False, 'num_freeze_layers': 1, 'quantization': None, 'one_gpu': False, 'save_model': True, 'dist_checkpoint_root_folder': './output/llama3.2-SFT-lora7/FSDP', 'dist_checkpoint_folder': 'fine-tuned', 'save_optimizer': False, 'use_fast_kernels': False, 'use_wandb': True, 'save_metrics': False, 'flop_counter': False, 'flop_counter_start': 3, 'use_profiler': False, 'profiler_dir': 'PATH/to/save/profiler/results'}
+2024-10-21 17:20:57,205 INFO    MainThread:362689 [wandb_run.py:_config_callback():1382] config_cb None None {'mixed_precision': True, 'use_fp16': False, 'sharding_strategy': 'FULL_SHARD', 'hsdp': False, 'sharding_group_size': 0, 'replica_group_size': 0, 'checkpoint_type': 'SHARDED_STATE_DICT', 'fsdp_activation_checkpointing': True, 'fsdp_cpu_offload': False, 'pure_bf16': False, 'optimizer': 'AdamW'}
+2024-10-21 17:20:58,800 INFO    MainThread:362689 [wandb_run.py:_config_callback():1382] config_cb None None {'peft_type': 'LORA', 'auto_mapping': None, 'base_model_name_or_path': '/media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct', 'revision': None, 'task_type': 'CAUSAL_LM', 'inference_mode': False, 'r': 64, 'target_modules': ['o_proj', 'v_proj', 'q_proj', 'k_proj'], 'lora_alpha': 128, 'lora_dropout': 0.05, 'fan_in_fan_out': False, 'bias': 'none', 'use_rslora': False, 'modules_to_save': None, 'init_lora_weights': True, 'layers_to_transform': None, 'layers_pattern': None, 'rank_pattern': {}, 'alpha_pattern': {}, 'megatron_config': None, 'megatron_core': 'megatron.core', 'loftq_config': {}, 'use_dora': False, 'layer_replication': None}
+2024-10-21 18:02:08,165 WARNING MsgRouterThr:362689 [router.py:message_loop():77] message_loop has been closed

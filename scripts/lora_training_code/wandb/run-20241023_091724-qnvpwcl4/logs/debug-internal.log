@@ -1,0 +1,190 @@
+2024-10-23 09:17:24,332 INFO    StreamThr :9806 [internal.py:wandb_internal():85] W&B internal server running at pid: 9806, started at: 2024-10-23 09:17:24.331761
+2024-10-23 09:17:24,335 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: status
+2024-10-23 09:17:24,338 INFO    WriterThread:9806 [datastore.py:open_for_write():87] open: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/run-qnvpwcl4.wandb
+2024-10-23 09:17:24,338 DEBUG   SenderThread:9806 [sender.py:send():379] send: header
+2024-10-23 09:17:24,338 DEBUG   SenderThread:9806 [sender.py:send():379] send: run
+2024-10-23 09:17:24,867 INFO    SenderThread:9806 [dir_watcher.py:__init__():211] watching files in: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files
+2024-10-23 09:17:24,868 INFO    SenderThread:9806 [sender.py:_start_run_threads():1188] run started: qnvpwcl4 with start time 1729642644.332049
+2024-10-23 09:17:24,884 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: check_version
+2024-10-23 09:17:24,884 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: check_version
+2024-10-23 09:17:24,954 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: run_start
+2024-10-23 09:17:25,002 DEBUG   HandlerThread:9806 [system_info.py:__init__():26] System info init
+2024-10-23 09:17:25,002 DEBUG   HandlerThread:9806 [system_info.py:__init__():41] System info init done
+2024-10-23 09:17:25,002 INFO    HandlerThread:9806 [system_monitor.py:start():194] Starting system monitor
+2024-10-23 09:17:25,002 INFO    SystemMonitor:9806 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-23 09:17:25,003 INFO    HandlerThread:9806 [system_monitor.py:probe():214] Collecting system info
+2024-10-23 09:17:25,003 INFO    SystemMonitor:9806 [interfaces.py:start():188] Started cpu monitoring
+2024-10-23 09:17:25,004 INFO    SystemMonitor:9806 [interfaces.py:start():188] Started disk monitoring
+2024-10-23 09:17:25,005 INFO    SystemMonitor:9806 [interfaces.py:start():188] Started gpu monitoring
+2024-10-23 09:17:25,005 INFO    SystemMonitor:9806 [interfaces.py:start():188] Started memory monitoring
+2024-10-23 09:17:25,007 INFO    SystemMonitor:9806 [interfaces.py:start():188] Started network monitoring
+2024-10-23 09:17:25,050 DEBUG   HandlerThread:9806 [system_info.py:probe():152] Probing system
+2024-10-23 09:17:25,052 DEBUG   HandlerThread:9806 [gitlib.py:_init_repo():56] git repository is invalid
+2024-10-23 09:17:25,052 DEBUG   HandlerThread:9806 [system_info.py:probe():200] Probing system done
+2024-10-23 09:17:25,052 DEBUG   HandlerThread:9806 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-124-generic-x86_64-with-glibc2.31', 'python': '3.10.14', 'heartbeatAt': '2024-10-23T00:17:25.050367', 'startedAt': '2024-10-23T00:17:24.314902', 'docker': None, 'cuda': None, 'args': ('--use_peft', '--peft_method', 'lora'), 'state': 'running', 'program': '/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/finetuning.py', 'codePathLocal': 'finetuning.py', 'codePath': 'finetuning.py', 'host': 'user-WS-C621E-SAGE-Series', 'username': 'user', 'executable': '/home/user/anaconda3/envs/llm-api/bin/python', 'cpu_count': 36, 'cpu_count_logical': 72, 'cpu_freq': {'current': 2.188263888888889, 'min': 1000.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 1.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 1.907, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}, {'current': 2.2, 'min': 1000.0, 'max': 3900.0}], 'disk': {'/': {'total': 1832.2072448730469, 'used': 1710.314323425293}}, 'gpu': 'NVIDIA A100 80GB PCIe', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}, {'name': 'NVIDIA A100 80GB PCIe', 'memory_total': 85899345920}], 'memory': {'total': 251.49820709228516}}
+2024-10-23 09:17:25,052 INFO    HandlerThread:9806 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-23 09:17:25,052 INFO    HandlerThread:9806 [system_monitor.py:probe():227] Publishing system info
+2024-10-23 09:17:25,052 DEBUG   HandlerThread:9806 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-10-23 09:17:25,872 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_created():271] file/dir created: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/conda-environment.yaml
+2024-10-23 09:17:39,875 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/conda-environment.yaml
+2024-10-23 09:17:40,018 DEBUG   HandlerThread:9806 [system_info.py:_save_conda():224] Saving conda packages done
+2024-10-23 09:17:40,020 INFO    HandlerThread:9806 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: status_report
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: status_report
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: status_report
+2024-10-23 09:17:40,034 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: keepalive
+2024-10-23 09:17:40,035 DEBUG   SenderThread:9806 [sender.py:send():379] send: files
+2024-10-23 09:17:40,036 INFO    SenderThread:9806 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-23 09:17:40,332 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-23 09:17:40,333 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-23 09:17:40,333 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: python_packages
+2024-10-23 09:17:40,335 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-23 09:17:40,336 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: stop_status
+2024-10-23 09:17:40,605 DEBUG   SenderThread:9806 [sender.py:send():379] send: telemetry
+2024-10-23 09:17:40,605 DEBUG   SenderThread:9806 [sender.py:send():379] send: config
+2024-10-23 09:17:40,606 DEBUG   SenderThread:9806 [sender.py:send():379] send: config
+2024-10-23 09:17:40,609 DEBUG   SenderThread:9806 [sender.py:send():379] send: exit
+2024-10-23 09:17:40,609 INFO    SenderThread:9806 [sender.py:send_exit():586] handling exit code: 1
+2024-10-23 09:17:40,609 INFO    SenderThread:9806 [sender.py:send_exit():588] handling runtime: 15
+2024-10-23 09:17:40,612 INFO    SenderThread:9806 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-23 09:17:40,612 INFO    SenderThread:9806 [sender.py:send_exit():594] send defer
+2024-10-23 09:17:40,612 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,613 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-23 09:17:40,613 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,614 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-23 09:17:40,614 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 1
+2024-10-23 09:17:40,614 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,614 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-23 09:17:40,615 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,615 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-23 09:17:40,615 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 2
+2024-10-23 09:17:40,615 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,616 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-23 09:17:40,616 INFO    HandlerThread:9806 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-23 09:17:40,616 DEBUG   SystemMonitor:9806 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-23 09:17:40,617 DEBUG   SystemMonitor:9806 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-23 09:17:40,618 INFO    HandlerThread:9806 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-23 09:17:40,618 DEBUG   SystemMonitor:9806 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-23 09:17:40,618 INFO    HandlerThread:9806 [interfaces.py:finish():200] Joined disk monitor
+2024-10-23 09:17:40,826 INFO    wandb-upload_0:9806 [upload_job.py:push():130] Uploaded file /tmp/tmpj8pf601bwandb/hntsj0a3-wandb-metadata.json
+2024-10-23 09:17:40,875 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_created():271] file/dir created: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/output.log
+2024-10-23 09:17:40,876 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_created():271] file/dir created: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/requirements.txt
+2024-10-23 09:17:40,876 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_created():271] file/dir created: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-metadata.json
+2024-10-23 09:17:40,877 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_created():271] file/dir created: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-summary.json
+2024-10-23 09:17:40,923 INFO    HandlerThread:9806 [interfaces.py:finish():200] Joined gpu monitor
+2024-10-23 09:17:40,924 INFO    HandlerThread:9806 [interfaces.py:finish():200] Joined memory monitor
+2024-10-23 09:17:40,924 INFO    HandlerThread:9806 [interfaces.py:finish():200] Joined network monitor
+2024-10-23 09:17:40,925 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,925 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-23 09:17:40,925 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 3
+2024-10-23 09:17:40,926 DEBUG   SenderThread:9806 [sender.py:send():379] send: stats
+2024-10-23 09:17:40,927 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,927 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-23 09:17:40,928 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,928 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-23 09:17:40,928 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 4
+2024-10-23 09:17:40,928 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,928 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-23 09:17:40,929 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,929 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-23 09:17:40,929 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 5
+2024-10-23 09:17:40,929 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,929 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-23 09:17:40,930 DEBUG   SenderThread:9806 [sender.py:send():379] send: summary
+2024-10-23 09:17:40,930 INFO    SenderThread:9806 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-23 09:17:40,931 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,931 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-23 09:17:40,931 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 6
+2024-10-23 09:17:40,931 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:40,931 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-23 09:17:40,932 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:40,932 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-23 09:17:40,937 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: status_report
+2024-10-23 09:17:41,153 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 7
+2024-10-23 09:17:41,154 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:41,154 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-23 09:17:41,154 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:41,154 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-23 09:17:41,347 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-23 09:17:41,876 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-summary.json
+2024-10-23 09:17:41,877 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/config.yaml
+2024-10-23 09:17:42,626 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 8
+2024-10-23 09:17:42,626 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: poll_exit
+2024-10-23 09:17:42,627 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:42,627 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-23 09:17:42,628 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:42,628 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-23 09:17:42,628 INFO    SenderThread:9806 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-23 09:17:42,629 INFO    SenderThread:9806 [job_builder.py:_get_source_type():580] no source found
+2024-10-23 09:17:42,629 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 9
+2024-10-23 09:17:42,629 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:42,630 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-23 09:17:42,630 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:42,630 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-23 09:17:42,630 INFO    SenderThread:9806 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-23 09:17:42,877 INFO    Thread-12 :9806 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/output.log
+2024-10-23 09:17:42,878 INFO    SenderThread:9806 [dir_watcher.py:finish():388] scan: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files
+2024-10-23 09:17:42,879 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/config.yaml config.yaml
+2024-10-23 09:17:42,879 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/output.log output.log
+2024-10-23 09:17:42,879 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/requirements.txt requirements.txt
+2024-10-23 09:17:42,889 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-metadata.json wandb-metadata.json
+2024-10-23 09:17:42,890 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/conda-environment.yaml conda-environment.yaml
+2024-10-23 09:17:42,891 INFO    SenderThread:9806 [dir_watcher.py:finish():402] scan save: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-summary.json wandb-summary.json
+2024-10-23 09:17:42,891 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 10
+2024-10-23 09:17:42,896 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:42,896 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-23 09:17:42,901 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:42,901 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-23 09:17:42,901 INFO    SenderThread:9806 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-23 09:17:43,333 INFO    wandb-upload_1:9806 [upload_job.py:push():130] Uploaded file /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/config.yaml
+2024-10-23 09:17:43,348 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-23 09:17:43,349 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: poll_exit
+2024-10-23 09:17:43,384 INFO    wandb-upload_0:9806 [upload_job.py:push():130] Uploaded file /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/output.log
+2024-10-23 09:17:43,494 INFO    wandb-upload_2:9806 [upload_job.py:push():130] Uploaded file /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/requirements.txt
+2024-10-23 09:17:43,512 INFO    wandb-upload_3:9806 [upload_job.py:push():130] Uploaded file /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/conda-environment.yaml
+2024-10-23 09:17:43,621 INFO    wandb-upload_4:9806 [upload_job.py:push():130] Uploaded file /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/files/wandb-summary.json
+2024-10-23 09:17:43,822 INFO    Thread-11 (_thread_body):9806 [sender.py:transition_state():614] send defer: 11
+2024-10-23 09:17:43,823 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:43,823 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-23 09:17:43,824 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:43,824 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-23 09:17:43,824 INFO    SenderThread:9806 [file_pusher.py:join():175] waiting for file pusher
+2024-10-23 09:17:43,824 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 12
+2024-10-23 09:17:43,825 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:43,825 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-23 09:17:43,825 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:43,826 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-23 09:17:43,826 INFO    SenderThread:9806 [file_stream.py:finish():601] file stream finish called
+2024-10-23 09:17:44,071 INFO    SenderThread:9806 [file_stream.py:finish():605] file stream finish is done
+2024-10-23 09:17:44,071 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 13
+2024-10-23 09:17:44,071 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:44,071 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-23 09:17:44,072 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:44,072 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-23 09:17:44,072 INFO    SenderThread:9806 [sender.py:transition_state():614] send defer: 14
+2024-10-23 09:17:44,073 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: defer
+2024-10-23 09:17:44,074 INFO    HandlerThread:9806 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-23 09:17:44,074 DEBUG   SenderThread:9806 [sender.py:send():379] send: final
+2024-10-23 09:17:44,074 DEBUG   SenderThread:9806 [sender.py:send():379] send: footer
+2024-10-23 09:17:44,074 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: defer
+2024-10-23 09:17:44,075 INFO    SenderThread:9806 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-23 09:17:44,075 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-23 09:17:44,076 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: poll_exit
+2024-10-23 09:17:44,077 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: server_info
+2024-10-23 09:17:44,078 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-23 09:17:44,078 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: server_info
+2024-10-23 09:17:44,083 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-23 09:17:44,084 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-23 09:17:44,084 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-23 09:17:44,244 DEBUG   SenderThread:9806 [sender.py:send_request():406] send_request: poll_exit
+2024-10-23 09:17:44,245 INFO    MainThread:9806 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-10-23 09:17:44,245 INFO    MainThread:9806 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-10-23 09:17:44,245 INFO    MainThread:9806 [wandb_run.py:_footer_sync_info():3950] logging synced files
+2024-10-23 09:17:44,246 DEBUG   HandlerThread:9806 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-23 09:17:44,246 INFO    HandlerThread:9806 [handler.py:finish():882] shutting down handler
+2024-10-23 09:17:45,079 INFO    WriterThread:9806 [datastore.py:close():296] close: /home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/wandb/run-20241023_091724-qnvpwcl4/run-qnvpwcl4.wandb
+2024-10-23 09:17:45,245 INFO    SenderThread:9806 [sender.py:finish():1608] shutting down sender
+2024-10-23 09:17:45,245 INFO    SenderThread:9806 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-23 09:17:45,245 INFO    SenderThread:9806 [file_pusher.py:join():175] waiting for file pusher

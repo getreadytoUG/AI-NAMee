@@ -1,0 +1,1536 @@
+
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████| 2/2 [00:00<00:00,  4.36it/s]
+--> Model /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct
+--> /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct has 3212.749824 Million params
+trainable params: 36,700,160 || all params: 3,249,449,984 || trainable%: 1.1294
+/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/cuda/memory.py:343: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+Training Epoch: 1:   0%|[34m                                                                   [39m| 0/3 [00:00<?, ?it/s]
+--> Training Set Length = 1007
+--> Validation Set Length = 2
+length of dataset_train 1007
+--> Num of Training Set Batches loaded = 503
+--> Num of Validation Set Batches loaded = 1
+--> Num of Validation Set Batches loaded = 1
+Starting epoch 0/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 1/30, step 502/503 completed (loss: 0.0011857271892949939, lr: 0.0002): : 4it [01:18, 19.61s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.22s/it]
+/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Training Epoch: 2:   0%|[34m                                                                   [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0201, device='cuda:0') eval_epoch_loss=tensor(0.0199, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 1 is 0.019940843805670738
+Epoch 1: train_perplexity=1.0024, train_epoch_loss=0.0024, epoch time 78.91346063296078s
+Starting epoch 1/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 2/30, step 502/503 completed (loss: 0.001328744925558567, lr: 0.00017): : 4it [01:17, 19.49s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.19it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0496, device='cuda:0') eval_epoch_loss=tensor(0.0484, device='cuda:0')
+Epoch 2: train_perplexity=1.0007, train_epoch_loss=0.0007, epoch time 79.45381900301436s
+Starting epoch 2/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 3/30, step 502/503 completed (loss: 0.0005579242715612054, lr: 0.00014450000000000002): : 4it [01:19, 19.84s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.61it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.30it/s]
+Training Epoch: 4:   0%|[34m                                                                   [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0143, device='cuda:0') eval_epoch_loss=tensor(0.0142, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 3 is 0.014235623180866241
+Epoch 3: train_perplexity=1.0005, train_epoch_loss=0.0005, epoch time 81.451099197031s
+Starting epoch 3/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 4/30, step 502/503 completed (loss: 0.00020522779959719628, lr: 0.00012282500000000002): : 4it [01:14, 18.73s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.27it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0243, device='cuda:0') eval_epoch_loss=tensor(0.0240, device='cuda:0')
+Epoch 4: train_perplexity=1.0004, train_epoch_loss=0.0004, epoch time 76.55854684702354s
+Starting epoch 4/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 5/30, step 502/503 completed (loss: 0.00023649110516998917, lr: 0.00010440125000000001): : 4it [01:12, 18.14s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.42it/s]
+ eval_ppl=tensor(1.0225, device='cuda:0') eval_epoch_loss=tensor(0.0223, device='cuda:0')
+Epoch 5: train_perplexity=1.0004, train_epoch_loss=0.0004, epoch time 74.52177954901708s
+Starting epoch 5/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 6/30, step 502/503 completed (loss: 0.00035839821794070303, lr: 8.87410625e-05): : 4it [01:14, 18.66s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.18it/s]
+Training Epoch: 7:   0%|[34m                                                                   [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0249, device='cuda:0') eval_epoch_loss=tensor(0.0246, device='cuda:0')
+Epoch 6: train_perplexity=1.0004, train_epoch_loss=0.0004, epoch time 76.72428287199s
+Starting epoch 6/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 7/30, step 502/503 completed (loss: 0.0008237192523665726, lr: 7.5429903125e-05): : 4it [01:10, 17.72s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.26it/s]
+Training Epoch: 8:   0%|[34m                                                                   [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0141, device='cuda:0') eval_epoch_loss=tensor(0.0140, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 7 is 0.013971955515444279
+Epoch 7: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 73.01120833604364s
+Starting epoch 7/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 8/30, step 496/503 completed (loss: 4.289584467187524e-05, lr: 6.411541765624999e-05): 100%|[34m█[39m| 3/
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+
+Training Epoch: 8/30, step 502/503 completed (loss: 0.0003750385658349842, lr: 6.411541765624999e-05): : 4it [01:25, 21.38s/it]
+ eval_ppl=tensor(1.0189, device='cuda:0') eval_epoch_loss=tensor(0.0188, device='cuda:0')
+Epoch 8: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 87.70487853098894s
+Starting epoch 8/30
+train_config.max_train_step: 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.09it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 9/30, step 502/503 completed (loss: 0.0003344850556459278, lr: 5.449810500781249e-05): : 4it [01:22, 20.63s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0168, device='cuda:0') eval_epoch_loss=tensor(0.0166, device='cuda:0')
+Epoch 9: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 84.73834014200838s
+Starting epoch 9/30
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.39it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 10/30, step 502/503 completed (loss: 0.0001807727530831471, lr: 4.6323389256640616e-05): : 4it [01:15, 18.98s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 12 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0152, device='cuda:0') eval_epoch_loss=tensor(0.0151, device='cuda:0')
+Epoch 10: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 77.82101467001485s
+Starting epoch 10/30
+train_config.max_train_step: 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.19it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 11/30, step 502/503 completed (loss: 0.00019900927145499736, lr: 3.9374880868144525e-05): : 4it [01:17, 19.38s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.33it/s]
+ eval_ppl=tensor(1.0158, device='cuda:0') eval_epoch_loss=tensor(0.0156, device='cuda:0')
+Epoch 11: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 79.84515516302781s
+Starting epoch 11/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 12/30, step 495/503 completed (loss: 0.0010494319722056389, lr: 3.346864873792284e-05): 100%|[34m█[39m| 3
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 12/30, step 502/503 completed (loss: 0.00022349198115989566, lr: 3.346864873792284e-05): : 4it [01:16, 19.06s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0164, device='cuda:0') eval_epoch_loss=tensor(0.0163, device='cuda:0')
+Epoch 12: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 77.57534030999523s
+Starting epoch 12/30
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.22it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 13/30, step 502/503 completed (loss: 0.0002340178907616064, lr: 2.8448351427234416e-05): : 4it [01:17, 19.26s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0145, device='cuda:0') eval_epoch_loss=tensor(0.0144, device='cuda:0')
+Epoch 13: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 77.93969735398423s
+Starting epoch 13/30
+train_config.max_train_step: 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.22it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 14/30, step 500/503 completed (loss: 0.000348574947565794, lr: 2.4181098713149252e-05): 100%|[34m█[39m| 3
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 14/30, step 502/503 completed (loss: 0.0001430547417839989, lr: 2.4181098713149252e-05): : 4it [01:18, 19.62s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.16it/s]
+Training Epoch: 15:   0%|[34m                                                                  [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0144, device='cuda:0') eval_epoch_loss=tensor(0.0143, device='cuda:0')
+Epoch 14: train_perplexity=1.0003, train_epoch_loss=0.0003, epoch time 79.6940727509791s
+Starting epoch 14/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 15/30, step 502/503 completed (loss: 0.0003267649153713137, lr: 2.0553933906176864e-05): : 4it [01:15, 18.78s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0146, device='cuda:0') eval_epoch_loss=tensor(0.0145, device='cuda:0')
+Epoch 15: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 76.79135869804304s
+Starting epoch 15/30
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.10it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 16/30, step 502/503 completed (loss: 0.0004538389330264181, lr: 1.7470843820250334e-05): : 4it [01:19, 19.99s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0153, device='cuda:0') eval_epoch_loss=tensor(0.0152, device='cuda:0')
+Epoch 16: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 81.43767483200645s
+Starting epoch 16/30
+train_config.max_train_step: 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.16it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 17/30, step 499/503 completed (loss: 0.00027561135357245803, lr: 1.4850217247212783e-05): 100%|[34m█[39m|
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 17/30, step 502/503 completed (loss: 0.00018584841745905578, lr: 1.4850217247212783e-05): : 4it [01:16, 19.17s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.27it/s]
+ eval_ppl=tensor(1.0149, device='cuda:0') eval_epoch_loss=tensor(0.0148, device='cuda:0')
+Epoch 17: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 78.28106570302043s
+Starting epoch 17/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 18/30, step 497/503 completed (loss: 0.0005331032443791628, lr: 1.2622684660130865e-05): 100%|[34m█[39m|
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 18/30, step 502/503 completed (loss: 0.00011011524475179613, lr: 1.2622684660130865e-05): : 4it [01:18, 19.52s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0148, device='cuda:0') eval_epoch_loss=tensor(0.0147, device='cuda:0')
+Epoch 18: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 78.89725807204377s
+Starting epoch 18/30
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.29s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 19/30, step 502/503 completed (loss: 0.0002479973481968045, lr: 1.0729281961111235e-05): : 4it [01:17, 18.59s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 19/30, step 502/503 completed (loss: 0.0002479973481968045, lr: 1.0729281961111235e-05): : 4it [01:17, 19.30s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.20s/it]
+ eval_ppl=tensor(1.0143, device='cuda:0') eval_epoch_loss=tensor(0.0142, device='cuda:0')
+Epoch 19: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 77.68878205301007s
+Starting epoch 19/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 20/30, step 498/503 completed (loss: 0.00022403687762562186, lr: 9.11988966694455e-06): 100%|[34m█[39m| 3
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 20/30, step 502/503 completed (loss: 0.00023769056133460253, lr: 9.11988966694455e-06): : 4it [01:18, 19.61s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.24it/s]
+ eval_ppl=tensor(1.0138, device='cuda:0') eval_epoch_loss=tensor(0.0137, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 20 is 0.013733696192502975
+Epoch 20: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 79.01501407695469s
+Starting epoch 20/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 21/30, step 502/503 completed (loss: 8.769283886067569e-05, lr: 7.751906216902867e-06): : 4it [01:28, 22.25s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.31s/it]
+Training Epoch: 22:   0%|[34m                                                                  [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0142, device='cuda:0') eval_epoch_loss=tensor(0.0141, device='cuda:0')
+Epoch 21: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 89.96715356997447s
+Starting epoch 21/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 22/30, step 502/503 completed (loss: 0.00026714600971899927, lr: 6.589120284367437e-06): : 4it [01:26, 20.44s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 22/30, step 502/503 completed (loss: 0.00026714600971899927, lr: 6.589120284367437e-06): : 4it [01:26, 21.60s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  1.11it/s]
+Training Epoch: 23:   0%|[34m                                                                  [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0141, device='cuda:0') eval_epoch_loss=tensor(0.0140, device='cuda:0')
+Epoch 22: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 86.9473161729984s
+Starting epoch 22/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 23/30, step 502/503 completed (loss: 0.0002703044156078249, lr: 5.600752241712321e-06): : 4it [01:21, 20.33s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.32s/it]
+Training Epoch: 24/30, step 0/503 completed (loss: 0.00013804745685774833, lr: 4.760639405455473e-06):   0%|[34m [39m| 0/
+ eval_ppl=tensor(1.0145, device='cuda:0') eval_epoch_loss=tensor(0.0144, device='cuda:0')
+Epoch 23: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 81.79035202297382s
+Starting epoch 23/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 24/30, step 502/503 completed (loss: 0.00020182972366455942, lr: 4.760639405455473e-06): : 4it [01:20, 20.20s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.19it/s]
+Training Epoch: 25:   0%|[34m                                                                  [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0145, device='cuda:0') eval_epoch_loss=tensor(0.0144, device='cuda:0')
+Epoch 24: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 81.30269219900947s
+Starting epoch 24/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 25/30, step 502/503 completed (loss: 0.00021882180590182543, lr: 4.0465434946371515e-06): : 4it [01:23, 20.77s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.16it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+Training Epoch: 26/30, step 1/503 completed (loss: 8.588084892835468e-05, lr: 3.4395619704415786e-06):   0%|[34m [39m| 0/
+ eval_ppl=tensor(1.0147, device='cuda:0') eval_epoch_loss=tensor(0.0146, device='cuda:0')
+Epoch 25: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 83.57524618698517s
+Starting epoch 25/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 26/30, step 502/503 completed (loss: 0.00017172656953334808, lr: 3.4395619704415786e-06): : 4it [01:26, 21.56s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.46s/it]
+Training Epoch: 27:   0%|[34m                                                                  [39m| 0/3 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.0146, device='cuda:0') eval_epoch_loss=tensor(0.0145, device='cuda:0')
+Epoch 26: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 86.7277712749783s
+Starting epoch 26/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 27/30, step 502/503 completed (loss: 0.00016200552636291832, lr: 2.9236276748753417e-06): : 4it [01:22, 20.63s/it]
+evaluating Epoch:   0%|[32m                                                                    [39m| 0/1 [00:00<?, ?it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0145, device='cuda:0') eval_epoch_loss=tensor(0.0144, device='cuda:0')
+Epoch 27: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 84.14591863297392s
+Starting epoch 27/30
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.28it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 28/30, step 502/503 completed (loss: 9.859786950983107e-05, lr: 2.4850835236440404e-06): : 4it [01:22, 20.27s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+Training Epoch: 28/30, step 502/503 completed (loss: 9.859786950983107e-05, lr: 2.4850835236440404e-06): : 4it [01:22, 20.70s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.09it/s]
+Training Epoch: 29/30, step 5/503 completed (loss: 0.00048373208846896887, lr: 2.1123209950974343e-06):   0%|[34m [39m| 0
+ eval_ppl=tensor(1.0142, device='cuda:0') eval_epoch_loss=tensor(0.0141, device='cuda:0')
+Epoch 28: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 84.05807743599871s
+Starting epoch 28/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 29/30, step 502/503 completed (loss: 0.0002887272567022592, lr: 2.1123209950974343e-06): : 4it [01:21, 20.34s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.12it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0140, device='cuda:0') eval_epoch_loss=tensor(0.0139, device='cuda:0')
+Epoch 29: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 82.8874778880272s
+Starting epoch 29/30
+train_config.max_train_step: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 30/30, step 502/503 completed (loss: 8.364972745766863e-05, lr: 1.7954728458328192e-06): : 4it [01:21, 20.40s/it]
+evaluating Epoch: 100%|[32m████████████████████████████████████████████████████████████[39m| 1/1 [00:01<00:00,  1.25s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 9 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0148, device='cuda:0') eval_epoch_loss=tensor(0.0147, device='cuda:0')
+Epoch 30: train_perplexity=1.0002, train_epoch_loss=0.0002, epoch time 82.53163618501276s
+Key: avg_train_prep, Value: 1.0003613471984862
+Key: avg_train_loss, Value: 0.00036118979138943054
+Key: avg_eval_prep, Value: 1.0171252171198526
+Key: avg_eval_loss, Value: 0.01431767533843716
+Key: avg_epoch_time, Value: 80.73324967873631
+Key: avg_checkpoint_time, Value: 0.026864956233960888

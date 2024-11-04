@@ -1,0 +1,277 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.14
+    cli_version: 0.17.4
+    framework: huggingface
+    huggingface_version: 4.45.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1729647442
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 11
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 98
+      - 105
+      2:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 11
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      - 98
+      - 105
+      3:
+      - 13
+      - 23
+      - 62
+      4: 3.10.14
+      5: 0.17.4
+      6: 4.45.2
+      8:
+      - 5
+      13: linux-x86_64
+model_name:
+  desc: null
+  value: /media/user/datadisk/LLM_models/llama-3.2-Korean-Bllossom-3B
+tokenizer_name:
+  desc: null
+  value: null
+enable_fsdp:
+  desc: null
+  value: false
+low_cpu_fsdp:
+  desc: null
+  value: false
+run_validation:
+  desc: null
+  value: true
+batch_size_training:
+  desc: null
+  value: 2
+batching_strategy:
+  desc: null
+  value: padding
+context_length:
+  desc: null
+  value: 2048
+gradient_accumulation_steps:
+  desc: null
+  value: 128
+gradient_clipping:
+  desc: null
+  value: true
+gradient_clipping_threshold:
+  desc: null
+  value: 1.0
+num_epochs:
+  desc: null
+  value: 30
+max_train_step:
+  desc: null
+  value: 0
+max_eval_step:
+  desc: null
+  value: 0
+num_workers_dataloader:
+  desc: null
+  value: 10
+lr:
+  desc: null
+  value: 0.0002
+weight_decay:
+  desc: null
+  value: 0.0
+gamma:
+  desc: null
+  value: 0.85
+seed:
+  desc: null
+  value: 42
+use_fp16:
+  desc: null
+  value: false
+mixed_precision:
+  desc: null
+  value: true
+val_batch_size:
+  desc: null
+  value: 2
+peft_method:
+  desc: null
+  value: lora
+use_peft:
+  desc: null
+  value: true
+from_peft_checkpoint:
+  desc: null
+  value: ''
+output_dir:
+  desc: null
+  value: /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output
+freeze_layers:
+  desc: null
+  value: false
+num_freeze_layers:
+  desc: null
+  value: 1
+quantization:
+  desc: null
+  value: null
+one_gpu:
+  desc: null
+  value: false
+save_model:
+  desc: null
+  value: true
+dist_checkpoint_root_folder:
+  desc: null
+  value: ./output/llama3.2-SFT-lora7/FSDP
+dist_checkpoint_folder:
+  desc: null
+  value: fine-tuned
+save_optimizer:
+  desc: null
+  value: false
+use_fast_kernels:
+  desc: null
+  value: false
+use_wandb:
+  desc: null
+  value: true
+save_metrics:
+  desc: null
+  value: false
+flop_counter:
+  desc: null
+  value: false
+flop_counter_start:
+  desc: null
+  value: 3
+use_profiler:
+  desc: null
+  value: false
+profiler_dir:
+  desc: null
+  value: PATH/to/save/profiler/results
+sharding_strategy:
+  desc: null
+  value: FULL_SHARD
+hsdp:
+  desc: null
+  value: false
+sharding_group_size:
+  desc: null
+  value: 0
+replica_group_size:
+  desc: null
+  value: 0
+checkpoint_type:
+  desc: null
+  value: SHARDED_STATE_DICT
+fsdp_activation_checkpointing:
+  desc: null
+  value: true
+fsdp_cpu_offload:
+  desc: null
+  value: false
+pure_bf16:
+  desc: null
+  value: false
+optimizer:
+  desc: null
+  value: AdamW
+peft_type:
+  desc: null
+  value: LORA
+auto_mapping:
+  desc: null
+  value: null
+base_model_name_or_path:
+  desc: null
+  value: /media/user/datadisk/LLM_models/llama-3.2-Korean-Bllossom-3B
+revision:
+  desc: null
+  value: null
+task_type:
+  desc: null
+  value: CAUSAL_LM
+inference_mode:
+  desc: null
+  value: false
+r:
+  desc: null
+  value: 64
+target_modules:
+  desc: null
+  value:
+  - k_proj
+  - v_proj
+  - o_proj
+  - q_proj
+lora_alpha:
+  desc: null
+  value: 128
+lora_dropout:
+  desc: null
+  value: 0.05
+fan_in_fan_out:
+  desc: null
+  value: false
+bias:
+  desc: null
+  value: none
+use_rslora:
+  desc: null
+  value: false
+modules_to_save:
+  desc: null
+  value: null
+init_lora_weights:
+  desc: null
+  value: true
+layers_to_transform:
+  desc: null
+  value: null
+layers_pattern:
+  desc: null
+  value: null
+rank_pattern:
+  desc: null
+  value: {}
+alpha_pattern:
+  desc: null
+  value: {}
+megatron_config:
+  desc: null
+  value: null
+megatron_core:
+  desc: null
+  value: megatron.core
+loftq_config:
+  desc: null
+  value: {}
+use_dora:
+  desc: null
+  value: false
+layer_replication:
+  desc: null
+  value: null

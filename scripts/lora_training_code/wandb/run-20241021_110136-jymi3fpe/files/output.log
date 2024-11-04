@@ -1,0 +1,136 @@
+
+Loading checkpoint shards: 100%|██████████████████████████████████████████████| 2/2 [00:00<00:00,  4.49it/s]
+--> Model /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct
+--> /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct has 3212.749824 Million params
+trainable params: 36,700,160 || all params: 3,249,449,984 || trainable%: 1.1294
+--> Training Set Length = 600
+--> Validation Set Length = 2
+length of dataset_train 600
+--> Num of Training Set Batches loaded = 300
+--> Num of Validation Set Batches loaded = 1
+--> Num of Validation Set Batches loaded = 1
+Starting epoch 0/30
+train_config.max_train_step: 0
+/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/cuda/memory.py:343: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 1/30, step 299/300 completed (loss: 0.002017493825405836, lr: 0.0002): : 3it [00:42, 14.03s/it]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 11 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+evaluating Epoch: 100%|[32m██████████████████████████████████████████████████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.70it/s]
+/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /media/user/datadisk/LLM_models/Llama-3.2-3B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Training Epoch: 2/30, step 2/300 completed (loss: 0.0009172099526040256, lr: 0.00017):   0%|[34m                                             [39m| 0/2 [00:00<?, ?it/s]
+ eval_ppl=tensor(1.1763, device='cuda:0') eval_epoch_loss=tensor(0.1623, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 1 is 0.16234678030014038
+Epoch 1: train_perplexity=1.0030, train_epoch_loss=0.0030, epoch time 42.595851748017594s
+Starting epoch 1/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch: 2/30, step 299/300 completed (loss: 0.0008469456806778908, lr: 0.00017): : 3it [00:39, 13.13s/it]
+evaluating Epoch: 100%|[32m██████████████████████████████████████████████████████████████████████████████████████████████████████████[39m| 1/1 [00:00<00:00,  2.65it/s]
+Max CUDA memory allocated was 8 GB
+Max CUDA memory reserved was 10 GB
+Peak active CUDA memory was 8 GB
+CUDA Malloc retries : 0
+CPU Total Peak Memory consumed during the train (max): 2 GB
+ eval_ppl=tensor(1.0816, device='cuda:0') eval_epoch_loss=tensor(0.0784, device='cuda:0')
+we are about to save the PEFT modules
+PEFT modules are saved in /home/user/eomjimin/AI_Namee/Fine-tuning/lora_output directory
+best eval loss on epoch 2 is 0.07840843498706818
+Epoch 2: train_perplexity=1.0007, train_epoch_loss=0.0007, epoch time 39.896945439017145s
+Starting epoch 2/30
+train_config.max_train_step: 0
+Training Epoch: 3/30, step 15/300 completed (loss: 0.00031130167189985514, lr: 0.00014450000000000002):   0%|[34m                            [39m| 0/2 [00:02<?, ?it/s]Traceback (most recent call last):
+  File "/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/finetuning.py", line 329, in <module>
+    if __name__ == "__main__":
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/fire/core.py", line 143, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/fire/core.py", line 477, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/fire/core.py", line 693, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/finetuning.py", line 308, in main
+    # scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=500, T_mult=2)
+  File "/home/user/eomjimin/AI_Namee/Fine-tuning/SFT/llama_recipes/utils/train_utils.py", line 153, in train
+    loss = model(**batch).loss
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/peft/peft_model.py", line 1430, in forward
+    return self.base_model(
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/peft/tuners/tuners_utils.py", line 179, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1189, in forward
+    outputs = self.model(
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1000, in forward
+    layer_outputs = decoder_layer(
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 745, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 311, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/user/anaconda3/envs/llm-api/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
