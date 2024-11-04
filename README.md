@@ -1,4 +1,4 @@
-# 🪽📚 AI-NAMee
+![image](https://github.com/user-attachments/assets/a216251f-7914-40a6-83d9-7f52129d6791)# 🪽📚 AI-NAMee
 #### 국회 회의록 기반 의정활동 및 대국민 알권리 보장 챗봇 서비스
 #### 기간 : 2024-08-23 ~ 2024-10-28
 
@@ -32,12 +32,13 @@
 
 
 ### 💻 Model
-- **YOLOv8s-seg**
+- **meta/Llama-3.2-3B-Instruct**
+- **meta/Llama-3.1-8B-Instruct**
+- **jhgan/ko-sroberta-multitask**
+- **fine tuned LoRA**-
 
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/b7c8b011-d55a-41ae-98fb-1eda6f57fd63">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/7a9d5e35-bd6a-41e0-99a0-01ffdbff8fad">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/aeb04dc2-faf3-4998-84c0-374eec3d4ab3">
-
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/f9ba09e4-8506-424c-b0a5-4485982e2b21">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/364b741e-d5d8-4f6d-9b02-e24ea363f0eb">
 -------------------
 
 ## 🖥️ Server
