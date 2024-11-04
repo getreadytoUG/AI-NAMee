@@ -30,6 +30,7 @@
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/f51e0878-dc8b-4627-8568-adb0e9e9456a">
 
+-------------------
 
 ### 💻 Model
 - **meta/Llama-3.2-3B-Instruct**
@@ -39,6 +40,7 @@
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/f9ba09e4-8506-424c-b0a5-4485982e2b21">
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/364b741e-d5d8-4f6d-9b02-e24ea363f0eb">
+
 -------------------
 
 ## 🖥️ Front
