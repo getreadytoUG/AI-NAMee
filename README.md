@@ -25,7 +25,7 @@
 - GPT-4o 를 활용하여 직접 작성한 데이터
   - RAG 수행을 위한 문서 데이터
   - LoRA 학습을 위한 데이터
-- Namu WIKI 에서의 법률 용어 사전
+- Namu Wiki 에서의 법률 용어 사전
   - Crawling 을 통하여 법과 관련된 내용 확인
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/f51e0878-dc8b-4627-8568-adb0e9e9456a">
@@ -59,13 +59,16 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Meta-0467DF?style=flat-square&logo=Meta&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=flat-square&logo=Hugging Face&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Namu Wiki-008275?style=flat-square&logo=Namu Wiki&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=OpenAI&logoColor=white"/>
+<!--   <img src="https://img.shields.io/badge/?style=flat-square&logo=&logoColor=white"/> -->
 </p>
