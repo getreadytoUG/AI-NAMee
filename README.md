@@ -7,26 +7,29 @@
 ## 🎁 기획
 ### "AI-NAMee : AI for National Assembly Meeting"
 - "AI-NAMee"는 국회 회의록과 법률 문서를 분석하고, 이를 기반으로 사용자에게 정보를 전달해 주는 목적을 가진 챗봇 서비스입니다
-- RAG 기법을 이용하여 보다 정확한 답변을 이끌어 낼 수 있습니다.
-- 
+- NER, RAG 기법, LoRA 사용 등을 이용하여 보다 정확한 답변을 이끌어 낼 수 있습니다.
+- 국민의 관심사를 높히고 알 권리를 증진시키며 국회의 의정활동을 돕습니다.
 
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/58fe1337-18aa-44d3-a5d4-ebb4ddeaba43">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/5f0ca80f-ac19-4356-88e4-424e7a0f7a7f">
 
 <hr>
 
 ## 👨‍💻 My Role in Process
-##### - 기획 및 아이디어 제공, YOLOv8s-seg 모델 학습, roboflow를 통한 데이터 정제, 알고리즘 제작
+##### - 팀장, FAISS DB 생성, LoRA 학습 데이터 생성 및 학습, 모델 프롬프트 작성, PDF 작성
 
 -------------------
 
 ## 🛍️ Dataset & Model
 ### 📚 Dataset
-- [AI Hub "보행 안전을 위한 도로 시설물 데이터"](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=513)
-- [roboflow "Roboflow Universe Instance Segmentation Dataset](https://universe.roboflow.com/)
-- 전국 CCTV 데이터(직접 라벨링 후 제작)
+- [AI Hub "국회 회의록 기반 지식 검색 데이터"](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71795)
+- GPT-4o 를 활용하여 직접 작성한 데이터
+  - RAG 수행을 위한 문서 데이터
+  - LoRA 학습을 위한 데이터
+- Namu WIKI 에서의 법률 용어 사전
+  - Crawling 을 통하여 법과 관련된 내용 확인
 
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/68173dc9-237a-481c-b3f6-eff948a71e0d">
-<img width="100%" alt="image" src="https://github.com/getreadytoUG/CAIROSS/assets/127275992/92d3c0fe-ff89-4942-848a-8284cee04178">
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/f51e0878-dc8b-4627-8568-adb0e9e9456a">
+
 
 ### 💻 Model
 - **YOLOv8s-seg**
